@@ -1,0 +1,57 @@
+.top-box {
+    margin: 1rem 0 !important;
+    padding: 0 !important;
+}
+.top-box .hehe-logo {
+    height: 6rem;
+    width: 6rem;
+    background: #fff;
+    margin: 1rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-box .hehe-logo img {
+    width: 85%;
+}
+.top-box .top-title {
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 1rem 1rem 1rem;
+    border-bottom: 1px solid #ccc;
+    font-weight: 600;
+}
+
+.top-box .authBtnTwo{
+    background: #EDF0F5;
+    border: 0rem solid transparent !important;
+    color: #5979a3 !important;
+    
+}
+.top-box .authBtnTwo:hover{
+    background: #fff;
+    box-shadow: 1px 1px 8px #EDF0F5;
+}
+
+.top-box .top-content {
+    margin: 0 1rem 1rem 1rem;
+}
+.top-box .top-content .content1 {
+    display: inline-block;
+    margin: 1rem 2rem 0 0;
+}
+.top-box .top-content .content2 {
+    display: inline-block;
+    margin: 1rem 2rem 0 0;
+}
+.top-box .top-content .content3 {
+    display: inline-block;
+    margin: 1rem 2rem 0 0;
+}
+.top-box .top-content .tabletitle {
+    width: 9rem;
+    font-family: 100;
+}
