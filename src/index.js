@@ -30,7 +30,8 @@ class CompanyProfile extends Component {
             customerCategory,
             shadowBox,
             nameColor,
-            editBtn
+            editBtn,
+            editIcon
          } = this.props;
         return (
             <div className={`row top-box ${shadowBox}`}>
@@ -40,7 +41,7 @@ class CompanyProfile extends Component {
                 <div className="col-lg-11 col-md-11 col-sm-10 col-xs-10">
                     <div className="top-title">
                         <span style={{color: nameColor}}>{customerName}</span>
-                        <span><Link to={`/update/${customerId}`}><button className={editBtn}><span className="icon-icon_edit"></span> Edit Profile info</button></Link></span>
+                        <span><Link to={`/update/${customerId}`}><button className={editBtn}><span className={`icon-icon_edit ${editIcon}`}></span> Edit Profile info</button></Link></span>
                     </div>
                     <div className="top-content">
                         <div className="row reset">

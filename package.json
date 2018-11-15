@@ -1,6 +1,6 @@
 {
   "name": "company-profile-component",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "\"a component which render company profile info\"",
   "main": "dist/index.js",
   "scripts": {
